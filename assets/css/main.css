@@ -1,0 +1,78 @@
+@import "tailwindcss";
+
+@theme{
+    --color-primary: #444444;
+    --color-secondary: #555555;
+    --color-accent: #e74c3c;
+    --color-accent-dark: #c0392b;
+    --color-light: #f5f5f5;
+    --color-dark: #333333;
+    --color-gray: #e0e0e0;
+    --color-dark-gray: #c9c9c9;
+    --color-success: #27ae60;
+    --color-background: #fff;
+    --color-background-shaded: #f5f5f5;
+}
+
+
+/*@theme{*/
+/*    --color-primary: #f5f5f5;            !* світлий текст *!*/
+/*    --color-secondary: #cccccc;          !* трохи темніший для підзаголовків *!*/
+/*    --color-accent: #e74c3c;             !* яскравий акцент лишаємо *!*/
+/*    --color-accent-dark: #c0392b;        !* темніший акцент *!*/
+/*    --color-light: #222222;              !* світлі елементи на фоні *!*/
+/*    --color-dark: #ffffff;               !* текст на темному фоні *!*/
+/*    --color-gray: #444444;               !* сірі елементи *!*/
+/*    --color-dark-gray: #333333;          !* темніші сірі *!*/
+/*    --color-success: #27ae60;            !* успішні стани *!*/
+/*    --color-background: #1a1a1a;         !* основний темний фон *!*/
+/*    --color-background-shaded: #111;  !* трохи світліший фон для секцій *!*/
+/*}*/
+
+
+:root[data-theme="dark"] {
+    --color-primary: #f5f5f5;            /* світлий текст */
+    --color-secondary: #cccccc;          /* трохи темніший для підзаголовків */
+    --color-accent: #e74c3c;             /* яскравий акцент лишаємо */
+    --color-accent-dark: #c0392b;        /* темніший акцент */
+    --color-light: #222222;              /* світлі елементи на фоні */
+    --color-dark: #ffffff;               /* текст на темному фоні */
+    --color-gray: #444444;               /* сірі елементи */
+    --color-dark-gray: #333333;          /* темніші сірі */
+    --color-success: #27ae60;            /* успішні стани */
+    --color-background: #111111;         /* основний темний фон */
+    --color-background-shaded: #1a1a1a;  /* трохи світліший фон для секцій */
+}
+
+
+* {
+    font-family: 'Segoe UI', serif;
+    /*font-family: 'Open Sans', serif;*/
+}
+
+section {
+    width: 100%;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
