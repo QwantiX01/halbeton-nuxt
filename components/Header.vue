@@ -24,7 +24,7 @@
           <NuxtLink to="/price-lists">Прайс-листи</NuxtLink>
         </li>
         <li class="hover:text-accent-dark transition-colors">
-          <NuxtLink to="/contact-page">Зв'язок</NuxtLink>
+          <NuxtLink to="/contact">Зв'язок</NuxtLink>
         </li>
       </ul>
       <div class="">

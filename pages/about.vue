@@ -5,14 +5,13 @@
     placeholder="https://al-muradgranite.co.uk/app/uploads/2023/02/PHOTO-2022-10-29-07-16-31.jpg"
   >
     <template v-slot:label>
-      ГалБетон - лідер виробництва бетону у Західній Україні
+      <span>Гал</span>
+      <span class="text-accent">Бетон</span> - лідер виробництва бетону у Західній Україні
     </template>
     <template v-slot:addition
       >Забезпечуємо якісними будівельними матеріалами ваші проекти з 2005 року
     </template>
-    <template v-slot:extra>
-      <ButtonLink> Дізнатись більше</ButtonLink>
-    </template>
+
   </HeroSection>
 
   <DefaulSection class="mt-12">

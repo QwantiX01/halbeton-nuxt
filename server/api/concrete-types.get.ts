@@ -1,21 +1,6 @@
 export default defineEventHandler((event) => {
   return [
     {
-      id: 1,
-      mark: "M50",
-      class: "B3.5",
-      strength: "5 МПа",
-      category: "very-low",
-      description: "Найнижча марка бетону",
-      applications: [
-        "Тимчасові конструкції",
-        "Підготовчі роботи",
-        "Заповнення пустот",
-      ],
-      image:
-        "https://content.designerpages.com/assets/81151508/gb2tlmrmtslt48x48.jpg",
-    },
-    {
       id: 2,
       mark: "M100",
       class: "B7.5",
@@ -28,6 +13,8 @@ export default defineEventHandler((event) => {
         "Стяжки під підлоги",
         "Вимощення",
       ],
+      fullDescription:
+        "M100 - це підготовчі та некритичні роботи. Бетон цієї марки характеризується міцністю 10 МПа та відповідає класу B7.5. Має оптимальне співвідношення якості та ціни для вказаних областей застосування.",
       image:
         "https://content.designerpages.com/assets/81151508/gb2tlmrmtslt48x48.jpg",
     },
@@ -151,5 +138,5 @@ export default defineEventHandler((event) => {
       image:
         "https://content.designerpages.com/assets/81151508/gb2tlmrmtslt48x48.jpg",
     },
-  ]
-})
+  ];
+});

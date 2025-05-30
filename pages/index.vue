@@ -13,10 +13,12 @@ const mainPlaceholder = ref("img/main-placeholder.jpg");
       — Надійний фундамент вашого успіху
     </template>
     <template v-slot:addition
-      >Виробник якісного висококласного бетону, за новими стандартами</template
-    >
+      >Виробник якісного висококласного бетону, за новими стандартами
+    </template>
     <template v-slot:extra>
-      <ButtonLink>Дізнатися більше</ButtonLink>
+      <ButtonLink>
+        <NuxtLink to="/about"> Дізнатися більше</NuxtLink>
+      </ButtonLink>
     </template>
   </HeroSection>
 
@@ -43,14 +45,14 @@ const mainPlaceholder = ref("img/main-placeholder.jpg");
           <template v-slot:emoji>✓</template>
           <template v-slot:title>Гарантована якість</template>
           <template v-slot:additional-info
-            >Всі марки бетону відповідають державним стандартам
+            >Всі марки бетону відповідають зазаначеним стандартам
           </template>
         </EmojiPane>
         <EmojiPane>
           <template v-slot:emoji>🚚</template>
           <template v-slot:title>Швидка доставка</template>
           <template v-slot:additional-info
-            >Доставляємо бетон точно в термін
+            >Доставляємо в зазначений вами термін
           </template>
         </EmojiPane>
         <EmojiPane>
@@ -90,7 +92,9 @@ const mainPlaceholder = ref("img/main-placeholder.jpg");
     </template>
     <template v-slot:content>
       <div class="mx-auto w-fit">
-        <ButtonLink> Зв'язатися з нами</ButtonLink>
+        <ButtonLink>
+          <NuxtLink to="/pages/contact">Зв'язатися з нами</NuxtLink>
+        </ButtonLink>
       </div>
     </template>
   </DefaulSection>
